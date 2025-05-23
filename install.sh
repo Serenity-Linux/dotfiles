@@ -86,13 +86,24 @@ sudo mv sddm.conf /etc/sddm.conf.d/
 ######################################
 ###############ROFI###################
 ######################################
-cp -r material-you $HOME/.local/share/rofi/themes
+# Specify the directory path
+ROFI="$HOME/.local/share/rofi/themes"
+
+# Check if the directory exists
+if [ ! -d "$ROFI" ]; then
+  echo "Directory does not exist. Creating..."
+  mkdir -p "$HOME/.local/share/rofi/themes"
+else
+  echo "Directory already exists. Doing nothing."
+fi
+
+cp -rf material-you $HOME/.local/share/rofi/themes
 
 ######################################
 ############dotfiles##################
 ######################################
-cp -r .config $HOME
-cp -r Wallpapers $HOME
+cp -rf .config $HOME
+cp -rf Wallpapers $HOME
 cp .zshrc $HOME
 
 ######################################
