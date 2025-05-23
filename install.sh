@@ -13,7 +13,7 @@ cd ../
 ########Essential packages############
 ######################################
 sudo pacman -Syyu
-paru -S --needed nvim zsh aurutils iwd git firefox hyprpaper swww viewnior ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd wayland hyprutils hyprwayland-scanner hyprlang brightnessctl pavucontrol playerctl base-devel wget code waypaper wlogout python-pywal16 python-watchdog python-pywalfox matugen-bin glib2-devel hyprlock waybar sddm bluez bluez-utils nautilus swaync alacritty cava fastfecth rofi
+paru -S --needed matugen nvim zsh aurutils iwd git firefox hyprpaper swww viewnior ninja gcc wayland-protocols libjpeg-turbo libwebp libjxl pango cairo pkgconf cmake libglvnd wayland hyprutils hyprwayland-scanner hyprlang brightnessctl pavucontrol playerctl base-devel wget code waypaper wlogout python-pywal16 python-watchdog python-pywalfox matugen-bin glib2-devel hyprlock waybar sddm bluez bluez-utils nautilus swaync alacritty cava fastfecth rofi
 
 ######################################
 #######Oh-my-zsh & plugins############
